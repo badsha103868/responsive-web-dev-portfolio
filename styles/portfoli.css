@@ -231,5 +231,16 @@ nav > ul{
   .banner{
     flex-direction: column;
   }
-  
+   .about-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+  .about{
+    padding: 100px;
+    text-align: center;
+   }
+   .skills-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
 }
